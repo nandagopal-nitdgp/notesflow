@@ -79,7 +79,7 @@
 
 ## 🏗️ Architecture
 
-```mermaid
+
 graph TD
     User["👤 User Browser"] -->|HTTP / React 19| Frontend["💻 NotesFlow Frontend (Vite + React)"]
     Frontend -->|Axios REST Calls| Backend["⚙️ Express API Server (Port 5001)"]
