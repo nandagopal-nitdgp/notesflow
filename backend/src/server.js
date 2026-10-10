@@ -32,9 +32,10 @@ app.use(rateLimiter);
 
 
 app.use("/api/notes", notesRoutes)
-app.get("/api/notes", (req, res) => {
-    res.status(200).send("you got 100 notes");
-});
+
+
+
+
 
 connectDB().then(() => {
   app.listen(PORT, () => {
